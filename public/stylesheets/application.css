@@ -52,7 +52,7 @@ body {
 	position: relative;
 	overflow: hidden;
 }
-#wolf { 	position: absolute;
+.wolf { 	position: absolute;
 	top:0;
 	left: 0;
 	display: block;
@@ -62,6 +62,11 @@ body {
 	background: url(../images/wolf.png) no-repeat;
 	text-indent:-9999px;
 	overflow: hidden;}
+.wolf a {
+	display: block;
+	height: 249px;
+	width: 289px;
+}
 #bluewolf {	position: absolute;
 	top:0;
 	left: 300px;
